@@ -1,0 +1,11 @@
+:root {
+    --main-font-family: 'Montserrat', sans-serif;
+    --primary-text-color: #111111;
+    --accent-background-color: #1E1823;
+    --accent-color: #FD9222;
+    --background-color: #FAFAFA;
+}
+
+body {
+    font-family: var(--main-font-family);
+}
