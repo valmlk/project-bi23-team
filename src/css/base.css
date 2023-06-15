@@ -3,11 +3,14 @@
     --primary-text-color: #111111;
     --accent-background-color: #1E1823;
     --accent-color: #FD9222;
+    --light-accent-color: #FCF1E0;
     --background-color: #FAFAFA;
+    --white-color: #fff;
 }
 
 body {
     font-family: var(--main-font-family);
+    background-color: var(--background-color);
 }
 
 .container {
@@ -18,7 +21,7 @@ body {
 
 .button {
     display: block;
-    min-width: 120px;
+    min-width: 93px;
     height: 41px;
     padding: 12px 28px;
     margin: 0;
@@ -30,6 +33,47 @@ body {
     align-items: center;
   }
 
+  .base-btn,
+  .subscribe-btn {
+    border: none;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+  }
+
+  .base-btn:hover,
+  .base-btn:focus,
+  .subscribe-btn:hover ,
+  .subscribe-btn:focus {
+    color: var(--accent-color);
+    background-color: var(--light-accent-color);
+  }
+
+  .how-its-made-btn {
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+  }
+
+  .how-its-made-btn:hover,
+  .how-its-made-btn:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
+
+  .review-btn {
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--primary-text-color);
+  }
+
+  .review-btn:hover,
+  .review-btn:focus {
+    border-color: transparent;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+  }
+
+
 @media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
@@ -38,9 +82,15 @@ body {
     }
 
     .button {
-        min-width: 144px;
+        min-width: 117px;
         height: 45px;
         padding: 14px 40px;
+    }
+
+    .review-btn,
+    .subscribe-btn {
+      font-size: 18px;
+      line-height: 1.22;
     }
   }
   
