@@ -3,6 +3,16 @@
 }
 
 .review-section-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.review-section-title-part {
+  color: var(--accent-color);
 }
 
 .swiper {
@@ -45,10 +55,20 @@
   background-color: var(--white-color);
 }
 
+.review-img-wrapper {
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
 .review-img {
+  position: absolute;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  top: 50%;
 }
 
 .review-persons-name {
@@ -74,8 +94,20 @@ swiper-slide {
 }
 
 .swiper-pagination-bullet {
+  background: rgba(17, 17, 17, 0.1);
+  width: 13px;
+  height: 13px;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--accent-color);
+  width: 28px;
+  border-radius: 7px;
 }
 
 .review-btn {
   margin-top: 65px;
+  height: 41px;
+  min-width: 165px;
+  border-radius: 100px;
 }
