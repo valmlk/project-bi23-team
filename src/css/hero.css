@@ -23,8 +23,6 @@
 }
 
 .button {
-  display: flex;
-  justify-content: center;
   transition: color var(--transition-duration-and-func),
     background-color var(--transition-duration-and-func);
 }
