@@ -1,0 +1,81 @@
+.reviews-section {
+  background-color: var(--background-color);
+}
+
+.review-section-title {
+}
+
+.swiper {
+  width: 100%;
+  height: 320px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  top: 290px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 36px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.review-swiper {
+  margin-top: 49px;
+}
+
+.review-comment-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 56px 16px 0;
+  max-width: 360px;
+  height: 200px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  border-radius: 15px;
+  background-color: var(--white-color);
+}
+
+.review-img {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.review-persons-name {
+  text-align: center;
+}
+
+.reviews-section-comment {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.swiper,
+swiper-container {
+  /* overflow: visible; */
+}
+
+.swiper-slide,
+swiper-slide {
+  flex-shrink: 0;
+}
+
+.swiper-pagination-bullets {
+}
+
+.swiper-pagination-bullet {
+}
+
+.review-btn {
+  margin-top: 65px;
+}
