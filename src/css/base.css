@@ -20,7 +20,9 @@ body {
 }
 
 .button {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: 93px;
     height: 41px;
     padding: 12px 28px;
@@ -29,8 +31,7 @@ body {
 
     font-weight: 600;
     font-size: 14px;
-    line-height: 1.21;
-    align-items: center;
+    line-height: 1.21; 
   }
 
   .base-btn,
