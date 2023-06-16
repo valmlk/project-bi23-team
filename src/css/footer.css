@@ -131,12 +131,13 @@
         margin-top: 58px;
     }
 
-    .social-list-link:hover {
-        color: var(--accent-color);
+    .social-list-link:hover .social-list-icon{
+        stroke: var(--accent-color);
+        
     }
 
-    .social-list-link:focus {
-        color: var(--accent-color);
+    .social-list-link:focus .social-list-icon {
+        stroke: var(--accent-color);
     }
 
     .footer-menu-link:hover,
