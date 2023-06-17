@@ -1,10 +1,10 @@
 @media screen and (max-width: 767px) {
-  .container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
   .advantages-item {
     margin-bottom: 20px;
+  }
+  .advantages {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -53,7 +53,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .advantages {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -70,9 +70,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    padding: 50px;
-  }
   .advantages-list {
     align-items: start;
     column-gap: 88px;
