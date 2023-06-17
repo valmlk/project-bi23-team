@@ -1,0 +1,52 @@
+.how-its-made-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    margin-bottom: 32px;
+}
+
+.video-how-its-made{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+     url(../img/how-its-made-img/how-its-made-img-mobile@1x.jpg);
+    border-radius: 15px;
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .video-how-its-made{
+         background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url(../img/how-its-made-img/how-its-made-img-mobile@2x.jpg);
+    }
+}
+
+.prescr-descr-wraper {
+    padding: 20px 14px;
+}
+
+.how-its-made-description {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--primary-text-color);
+    margin-bottom: 20px;
+}
+
+.prescription-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: var(--primary-text-color);
+    min-width: 291px;
+
+}
+
+.icon-marker {
+    margin-right: 4px;
+}
+
+.prescription-text {}
