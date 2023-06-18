@@ -1,18 +1,144 @@
-<div class="backdrop">
+<div class="backdrop is-hidden" data-modal>
   <div class="buy_now-modal">
     <p class="buy_now-text"><span class="buy_now-text_part">buy</span> now</p>
     <ul class="buy_now-list">
       <li class="buy_now-item">
-        <img src="" alt="" class="buy_now-img" />
-        <input class="buy_now-btn" type="checkbox" />
+        <input
+          class="buy_now-btn"
+          type="radio"
+          value="100g"
+          name="buy"
+          id="100g"
+          required
+        />
+        <label for="100g" class="buy_now-card">
+          <picture>
+            <!-- DESKTOP/TABLET -->
+            <source
+              srcset="
+                ../img/modal_buy_now/desk&tab100g.webp    1x,
+                ../img/modal_buy_now/desk&tab100g@2x.webp 2x,
+                ../img/modal_buy_now/desk&tab100g.jpg     1x,
+                ../img/modal_buy_now/desk&tab100g@2x.jpg  2x
+              "
+              media="(min-width: 768px)"
+              type="image/webp"
+              width="120"
+              height="107"
+            />
+            <!-- MOBILE -->
+            <source
+              srcset="
+                ../img/modal_buy_now/mobile100g.webp    1x,
+                ../img/modal_buy_now/mobile100g@2x.webp 2x,
+                ../img/modal_buy_now/mobile100g         1x,
+                ../img/modal_buy_now/mobile100g@2x.jpg  2x
+              "
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <img
+              class="buy_now-img"
+              src="../img/modal_buy_now/mobile100g.jpg"
+              alt="some chocolate"
+              width="84"
+              height="69"
+            />
+          </picture>
+          <span class="buy_now-weight">100 g</span>
+        </label>
       </li>
       <li class="buy_now-item">
-        <img src="" alt="" class="buy_now-img" />
-        <input class="buy_now-btn" type="checkbox" />
+        <input
+          class="buy_now-btn"
+          type="radio"
+          value="200g"
+          name="buy"
+          id="200g"
+          required
+        />
+        <label for="200g" class="buy_now-card">
+          <picture>
+            <!-- DESKTOP/TABLET -->
+            <source
+              srcset="
+                ../img/modal_buy_now/desk&tab200g.webp    1x,
+                ../img/modal_buy_now/desk&tab200g@2x.webp 2x,
+                ../img/modal_buy_now/desk&tab200g.jpg     1x,
+                ../img/modal_buy_now/desk&tab200g@2x.jpg  2x
+              "
+              media="(min-width: 768px)"
+              type="image/webp"
+              width="120"
+              height="107"
+            />
+            <!-- MOBILE -->
+            <source
+              srcset="
+                ../img/modal_buy_now/mobile200g.webp    1x,
+                ../img/modal_buy_now/mobile200g@2x.webp 2x,
+                ../img/modal_buy_now/mobile200g         1x,
+                ../img/modal_buy_now/mobile200g@2x.jpg  2x
+              "
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <img
+              class="buy_now-img"
+              src="../img/modal_buy_now/mobile200g.jpg"
+              alt="medium chocolate"
+              width="84"
+              height="69"
+            />
+          </picture>
+          <span class="buy_now-weight">200 g</span>
+        </label>
       </li>
       <li class="buy_now-item">
-        <img src="" alt="" class="buy_now-img" />
-        <input class="buy_now-btn" type="checkbox" />
+        <input
+          class="buy_now-btn"
+          type="radio"
+          value="300g"
+          name="buy"
+          id="300g"
+          required
+        />
+        <label for="300g" class="buy_now-card">
+          <picture>
+            <!-- DESKTOP/TABLET -->
+            <source
+              srcset="
+                ../img/modal_buy_now/desk&tab300g.webp    1x,
+                ../img/modal_buy_now/desk&tab300g@2x.webp 2x,
+                ../img/modal_buy_now/desk&tab300g.jpg     1x,
+                ../img/modal_buy_now/desk&tab300g@2x.jpg  2x
+              "
+              media="(min-width: 768px)"
+              type="image/webp"
+              width="120"
+              height="107"
+            />
+            <!-- MOBILE -->
+            <source
+              srcset="
+                ../img/modal_buy_now/mobile300g.webp    1x,
+                ../img/modal_buy_now/mobile300g@2x.webp 2x,
+                ../img/modal_buy_now/mobile300g         1x,
+                ../img/modal_buy_now/mobile300g@2x.jpg  2x
+              "
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <img
+              class="buy_now-img"
+              src="../img/modal_buy_now/mobile300g.jpg"
+              alt="many chocolate"
+              width="84"
+              height="69"
+            />
+          </picture>
+          <span class="buy_now-weight">300 g</span>
+        </label>
       </li>
     </ul>
     <form class="signup_form">
@@ -91,8 +217,9 @@
             id="card_number"
             type="tel"
             placeholder="Enter card"
-            pattern="[0-9]{16}"
+            pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
             title="xxxx-xxxx-xxxx-xxxx"
+            maxlength="19"
             required
           />
           <svg class="signup_form-card_number" width="32" height="21">
@@ -111,6 +238,6 @@
       </div>
       <button class="button base-btn" type="submit">Submit</button>
     </form>
-    <button class="modal-close-btn" type="button"></button>
+    <button class="modal-close-btn" type="button" data-modal-close></button>
   </div>
 </div>
