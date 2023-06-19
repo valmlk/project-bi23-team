@@ -91,7 +91,7 @@
 /* ===========  Desktop =========== */
 @media screen and (min-width: 1200px) {
     .unique-components {
-        padding: 128px;
+        padding: 128px 0;
     }
     .components-img {
         margin-bottom: 36px;
@@ -122,6 +122,7 @@
     height: 100%;
     padding: 20px;
     background-color: var(--white-color);
+    border-radius: 15px;
     opacity: 0;
     overflow: auto;
 }
