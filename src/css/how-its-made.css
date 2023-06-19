@@ -8,11 +8,9 @@
     color: var(--primary-text-color);
     margin-bottom: 32px;
 }
-
 .prescr-descr-wraper {
     padding: 20px 14px;
 }
-
 .how-its-made-description {
     font-weight: 600;
     font-size: 18px;
