@@ -2,16 +2,10 @@
     <div class="container reviews-container">
 
         <h2 class="review-section-title"><span class="review-section-title-part">chocolate</span> is loved</h2>
-        <div class="swiper">
 
-            <!-- Additional required wrapper -->
-
+        <div class="swiper mySwiper2">
             <div class="swiper-wrapper">
-
-                <!-- Slides -->
-
-                <div class="swiper-slide">
-
+                <div class="swiper-slide review-swiper-slide">
                     <div class="review-img-wrapper">
                         <img class="review-img" src="../img/reviews-img/victoria-dobrzhanska.jpg"
                             alt="Victoria Dobrzhanska's photo, readhead yound woman" width="80" height="80">
@@ -25,25 +19,18 @@
                             chocolate.</p>
                     </div>
                 </div>
-
-
-                <div class="swiper-slide">
+                <div class="swiper-slide  review-swiper-slide">
                     <div class="review-img-wrapper">
-                        <img class="review-img" src="../img/reviews-img/nazar-babenko.jpg"
+                        <img class="review-img" src="../img/reviews-img/irina-tydnyuk.jpg"
                             alt="Nazar Babenko's photo, brunette, young man" width="80" height="80">
                     </div>
                     <div class="review-comment-wrapper">
-                        <h3 class="review-persons-name">Nazar Babenko</h3>
-                        <p class="reviews-section-comment">This chocolate confection is a delight! A delight!
-                            The
-                            wafer
-                            is light and crisp, the hazelnut
-                            cream is smooth, and the chocolate is good.</p>
+                        <h3 class="review-persons-name">Irina Tydnyuk</h3>
+                        <p class="reviews-section-comment">This is simply the best chocolate around, and I'm just
+                            thrilled to support a local company! Best local chocolate - world class.</p>
                     </div>
                 </div>
-
-
-                <div class="swiper-slide">
+                <div class="swiper-slide  review-swiper-slide">
                     <div class="review-img-wrapper">
                         <img class="review-img" src="../img/reviews-img/olena-kampusch.jpg"
                             alt="Olena Kampusch's photo, blonde, young woman" width="80" height="80">
@@ -57,9 +44,7 @@
                             inside. The wafer is soft but crunchy.</p>
                     </div>
                 </div>
-
-
-                <div class="swiper-slide">
+                <div class="swiper-slide  review-swiper-slide">
                     <div class="review-img-wrapper">
                         <img class="review-img" src="../img/reviews-img/danilo-nottingham.jpg"
                             alt="Victoria Dobrzhanska's photo, readhead yound woman" width="80" height="80">
@@ -75,22 +60,14 @@
                 </div>
 
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <!-- <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div> -->
-
-            <!-- If we need scrollbar -->
-            <!-- <div class="swiper-scrollbar"></div> -->
-
-
+            <div class="swiper-pagination review-swiper-pagination"></div>
         </div>
 
     </div>
 
-    <button type="button" class="review-btn" type="submit">Leave a review</button>
+    </div>
+
+    <button type="button" class="review-btn" data-modal-open="modal2">Leave a review</button>
 
 </section>
 
@@ -99,11 +76,11 @@
 
 <!-- Review Form -->
 
-<div class="backdrop-review-form">
+<div class="backdrop-review-form is-hidden" data-modal="modal2">
 
     <div class="leave-review-modal-window">
 
-        <button type="button" class="review-modal-close-btn">
+        <button type="button" class="review-modal-close-btn" data-modal-close="modal2">
 
             <svg class="review-close-btn-icon" aria-label="close button">
                 <use href="../img/sprite.svg#icon-close"></use>
