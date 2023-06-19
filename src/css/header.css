@@ -7,7 +7,7 @@
   display: flex;
   gap: 4px;
   padding: 20px 0 14px 0;
-  margin-right: 138px;
+  /* margin-right: 138px; */
   align-items: center;
 
   text-transform: uppercase;
@@ -22,6 +22,13 @@
 .header-logo-normal {
   font-style: normal;
 }
+
+@media screen and (min-width:375px) {
+  .header-logo {
+    margin-right: 138px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .header-logo {
     padding: 24px 0 24px 0;
@@ -44,6 +51,7 @@
 */
 .header {
   background-color: var(--background-color);
+  margin: auto;
 }
 .header-container {
   display: flex;
@@ -84,6 +92,12 @@
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
+}
+
+@media screen and (max-width:767px) {
+  .header {
+    max-width: 375px;
+  }
 }
 /* 
   |==========================================================

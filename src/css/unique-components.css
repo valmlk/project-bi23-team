@@ -1,5 +1,6 @@
 .unique-components {
     padding: 72px 0;
+    margin: auto;
 }
 .components-title {
     max-width: 283px;
@@ -52,8 +53,35 @@
 .components-item:nth-child(3) {
     background-color: var(--accent-background-color);
 }
+
+.components-item-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.components-item-text-dark {
+    color: var(--primary-text-color);
+}
+
 .components-item-text-light {
     color: var(--white-color);
+}
+
+@media screen and (max-width: 767px) {
+    .unique-components {
+        max-width: 375px;
+    }
+    
+    .components-text {
+        max-width: 335px;
+    }
+
+    .components-item {
+        max-width: 335px;
+    }
 }
 
 /* ========= Tablet ========== */
