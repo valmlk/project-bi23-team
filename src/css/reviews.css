@@ -149,18 +149,45 @@
   align-items: center;
   background-color: var(--subtle-background-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   padding: 0;
   cursor: pointer;
   padding: 0;
   border: none;
 }
 
-.review-close-btn-icon {
-  width: 20px;
-  height: 20px;
-  stroke: var(--primary-text-color);
+.review-modal-close-btn:hover,
+.review-modal-close-btn:focus {
+  background-color: var(--light-accent-color);
+}
+
+.review-modal-close-btn::before,
+.review-modal-close-btn::after {
+  content: '';
+  width: 15px;
+  height: 1.5px;
+  background-color: var(--primary-text-color);
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  border-radius: 2px;
+}
+
+.review-modal-close-btn::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.review-modal-close-btn::after {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.review-modal-close-btn::before,
+.review-modal-close-btn::after,
+.review-modal-close-btn::before,
+.review-modal-close-btn::after {
+  background-color: transparent;
+  background-image: linear-gradient(to right, rgba(14, 4, 0, 0.829), #050100);
 }
 
 .review-form-heading {
@@ -330,6 +357,12 @@
   .review-form-comment {
     width: 473px;
     height: 137px;
+  }
+
+  .review-modal-close-btn::before,
+  .review-modal-close-btn::after {
+    top: 15%;
+    left: 40%;
   }
 }
 
