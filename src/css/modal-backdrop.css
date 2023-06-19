@@ -300,6 +300,9 @@
     padding: 24px 20px 18px;
     row-gap: 14px;
   }
+  .buy_now-img {
+    height: 107px;
+  }
   .buy_now-weight {
     padding: 8px 29px;
   }
