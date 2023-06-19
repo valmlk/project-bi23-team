@@ -1,103 +1,133 @@
 .subscribe-sec {
-    background-color: var(--accent-background-color);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    padding-top: 62px;
-    padding-bottom: 62px;
-    margin: auto;
+  background-color: var(--accent-background-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 62px;
+  padding-bottom: 62px;
+  margin: auto;
 }
 
 .subscribe-title {
-    max-width: 291px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: var(--white-color);
-    margin-bottom: 24px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 291px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subscribe-descr {
-    max-width: 326px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: var(--white-color);
-    margin-bottom: 24px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 326px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--white-color);
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subscribe-btn {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (min-width:768px) {
-    .subscribe-sec {
-        padding-top: 72px;
-        padding-bottom: 72px;
-    }
-    
-    .subscribe-title {
-        max-width: 378px;
-        font-size: 24px;
-        line-height: 1.17;  
-    }
+@media screen and (min-width: 768px) {
+  .subscribe-sec {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
 
-    .subscribe-descr {
-        max-width: 467px;
-    }
+  .subscribe-title {
+    max-width: 378px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  .subscribe-descr {
+    max-width: 467px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .subscribe-sec {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/subscribe-images/subscribe-mobile.jpg);
-        max-width: 375px;
-    }
+  .subscribe-sec {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/subscribe-images/subscribe-mobile.jpg);
+    max-width: 375px;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
-    .subscribe-sec {
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/subscribe-images/subscribe-mobile@2x.jpg);
-    }
+  .subscribe-sec {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(/img/subscribe-images/subscribe-mobile@2x.jpg);
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .subscribe-sec {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/subscribe-images/subscribe-tablet.jpg);
-        max-width: 768px;
-    }
+  .subscribe-sec {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/subscribe-images/subscribe-tablet.jpg);
+    max-width: 768px;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    .subscribe-sec {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/subscribe-images/subscribe-tablet@2x.jpg);
-      }
+  .subscribe-sec {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/subscribe-images/subscribe-tablet@2x.jpg);
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .subscribe-sec {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/subscribe-images/subscribe-desktop.jpg);
-        max-width: 1200px;
-      }  
+  .subscribe-sec {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/subscribe-images/subscribe-desktop.jpg);
+    max-width: 1200px;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
   screen and (min-resolution: 192dpi) and (min-width: 1200px),
   screen and (min-resolution: 2dppx) and (min-width: 1200px) {
-    .subscribe-sec {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/subscribe-images/subscribe-desktop@2x.jpg);
-      }
+  .subscribe-sec {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../img/subscribe-images/subscribe-desktop@2x.jpg);
+  }
 }
