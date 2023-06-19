@@ -9,20 +9,6 @@
     margin-bottom: 32px;
 }
 
-.video-how-its-made{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-     url(../img/how-its-made-img/how-its-made-img-mobile@1x.jpg);
-    border-radius: 15px;
-}
-@media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-    .video-how-its-made{
-         background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-            url(../img/how-its-made-img/how-its-made-img-mobile@2x.jpg);
-    }
-}
-
 .prescr-descr-wraper {
     padding: 20px 14px;
 }
@@ -34,19 +20,57 @@ screen and (min-resolution: 2dppx) {
     color: var(--primary-text-color);
     margin-bottom: 20px;
 }
-
 .prescription-item {
+    position:relative;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
     letter-spacing: -0.02em;
     color: var(--primary-text-color);
-    min-width: 291px;
-
+    padding-left: 16px;
+}
+.prescription-item:not(:last-child){
+    margin-bottom: 18px;
+}
+.prescription-item::before{
+    position:absolute;
+    left: 0;
+    top: 5px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #4C4C4C;
+    border: 1px solid #ECEDED;
+    border-radius:50%;
+}
+@media screen and (min-width:768px){
+    .how-its-made-title{
+        font-size: 24px;
+        line-height: 1.17;
+    }
+    .prescr-descr-wraper{
+        padding: 32px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+    .container-how-its-made{
+        padding-left: 77px;
+        padding-right: 77px;
+    }
+}
+@media screen and (min-width:1200px){  
+    .content-wrapper{
+        display:flex;
+        gap:20px;
+    }
+    .prescr-descr-wraper{
+        padding-top: 32px;
+        padding-left: 32px;
+    }
+    .prescription-item:not(:last-child){
+        margin-bottom: 24px;
+    }
 }
 
-.icon-marker {
-    margin-right: 4px;
-}
 
-.prescription-text {}
