@@ -13,10 +13,6 @@ body {
   background-color: var(--background-color);
 }
 
-.modal-open {
-  overflow: hidden;
-}
-
 .container {
   max-width: 375px;
   margin: 0 auto;
