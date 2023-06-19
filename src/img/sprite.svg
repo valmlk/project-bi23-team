@@ -9,9 +9,9 @@
             <path fill="#ff5e00" style="fill: var(--color5, #ff5e00);"
                 d="M16 22.83a9.2 9.2 0 0 0 0-14 9.2 9.2 0 0 0 0 14z" />
         </symbol>
-        <symbol id="icon-flag" viewBox="0 0 32 32">
-            <path fill="gold" style="fill: var(--color6, #ffd700);" d="M31.83 4.56H.24v23.5h31.6V4.57z" />
-            <path fill="#0057b7" style="fill: var(--color7, #0057b7);" d="M.24 4.56h31.6V16.3H.23V4.56z" />
+        <symbol id="icon-flag" viewBox="0 0 40 32">
+          <path fill="#ffd700" style="fill: var(--color1, #ffd700)" d="M40.209 0.495h-39.902v29.695h39.902v-29.695z"></path>
+          <path fill="#0057b7" style="fill: var(--color2, #0057b7)" d="M0.307 0.495h39.902v14.847h-39.902v-14.847z"></path>
         </symbol>
         <symbol id="icon-vector" viewBox="0 0 32 32">
             <path
