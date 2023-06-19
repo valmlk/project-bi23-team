@@ -34,6 +34,10 @@
   transition: background-color var(--transition-duration-and-func);
 }
 
+.buy_now-modal::-webkit-scrollbar {
+  width: 0;
+}
+
 .buy_now-text {
   font-style: normal;
   font-weight: 600;
