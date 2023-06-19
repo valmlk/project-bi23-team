@@ -58,15 +58,26 @@
       aria-expanded="false"
       aria-controls="mobile-menu"
     >
-      <svg class="header-menu-icon" width="28" height="28">
+      <svg
+        class="header-menu-icon header-menu-icon-mobile"
+        width="28"
+        height="28"
+      >
         <use href="../img/sprite.svg#icon-menu-28"></use>
+      </svg>
+      <svg
+        class="header-menu-icon header-menu-icon-tablet"
+        width="32"
+        height="32"
+      >
+        <use href="../img/sprite.svg#icon-menu-32"></use>
       </svg>
     </button>
   </div>
 </header>
 <!-- Mobile menu -->
 <div class="menu-container js-menu-container" id="mobile-menu">
-  <button class="menu-toggle js-close-menu">
+  <button class="header-menu-toggle js-close-menu">
     <svg class="menu-modal-icon" width="28" height="28">
       <use href="../img/sprite.svg#icon-close"></use>
     </svg>
@@ -94,30 +105,38 @@
       >
     </li>
   </ul>
-  <ul class="mobile-menu-socials">
+  <ul class="mobile-menu-socials socials">
     <li class="mobile-menu-socials-item">
       <a
-        class="mobile-menu-socials-link"
+        class="mobile-menu-socials-link socials-link"
         href="https://www.instagram.com/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Instagram icon"
       >
-        <svg class="mobile-menu-socials-icon" width="22" height="22">
-          <use href="../img/sprite.svg#icon-instagram"></use>
+        <svg
+          class="mobile-menu-socials-icon socials-icon"
+          width="22"
+          height="22"
+        >
+          <use href="../img/sprite.svg#icon-instagram-22"></use>
         </svg>
       </a>
     </li>
     <li class="mobile-menu-socials-item">
       <a
-        class="mobile-menu-socials-link"
+        class="mobile-menu-socials-link socials-link"
         href="https://twitter.com"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Twitter icon"
       >
-        <svg class="mobile-menu-socials-icon" width="22" height="22">
-          <use href="../img/sprite.svg#icon-twitter"></use>
+        <svg
+          class="mobile-menu-socials-icon socials-icon"
+          width="22"
+          height="22"
+        >
+          <use href="../img/sprite.svg#icon-twitter-22"></use>
         </svg>
       </a>
     </li>
