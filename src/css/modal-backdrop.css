@@ -89,6 +89,17 @@
   color: var(--primary-text-color);
 }
 
+.buy_now-weight:hover,
+.buy_now-btn:checked + .buy_now-card > .buy_now-weight {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: box-shadow var(--transition-duration-and-func);
+}
+
+.buy_now-weight:active {
+  transform: scale(1.2);
+}
+
 .signup_form {
   font-style: normal;
   letter-spacing: -0.02em;
@@ -299,6 +310,9 @@
     flex-direction: column;
     padding: 24px 20px 18px;
     row-gap: 14px;
+  }
+  .buy_now-img {
+    height: 111px;
   }
   .buy_now-weight {
     padding: 8px 29px;
