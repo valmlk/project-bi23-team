@@ -107,6 +107,12 @@
   display: none;
 }
 
+.backdrop-review-form.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .leave-review-modal-window {
   min-width: 311px;
   min-height: 471px;
