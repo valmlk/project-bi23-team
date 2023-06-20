@@ -10,6 +10,8 @@
 }
 .prescr-descr-wraper {
     padding: 20px 14px;
+    background-color: var(--white-color);
+    border-radius: 15px;
 }
 .how-its-made-description {
     font-weight: 600;
@@ -55,6 +57,13 @@
         max-width: 350px;
     }
 }
+
+@media screen and (max-width:1199px) {
+    .prescr-descr-wraper {
+        margin-top: 20px;
+    }
+}
+
 @media screen and (min-width:768px) and (max-width:1199px){
     .container-how-its-made{
         padding-left: 77px;
