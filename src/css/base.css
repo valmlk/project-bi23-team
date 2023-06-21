@@ -100,4 +100,7 @@ body {
   .container {
     max-width: 1200px;
   }
+  body[style='overflow: hidden;'] {
+    margin-right: 17px;
+  }
 }
