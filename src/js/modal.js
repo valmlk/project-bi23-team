@@ -17,6 +17,12 @@
       closeModalBtn: document.querySelector("[data-modal-close='modal3']"),
       modal: document.querySelector("[data-modal='modal3']"),
       bodyElement: document.querySelector("body"),
+    },
+    {
+      openModalBtn: document.querySelector("[data-modal-open='modal4']"),
+      closeModalBtn: document.querySelector("[data-modal-close='modal4']"),
+      modal: document.querySelector("[data-modal='modal4']"),
+      bodyElement: document.querySelector("body"),
     }
   ];
 

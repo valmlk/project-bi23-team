@@ -7,13 +7,13 @@
 }
 
 .review-section-title {
-  font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: center;
+  color: var(--primary-text-color);
 }
 
 .review-section-title-part {
@@ -23,12 +23,13 @@
 .review-comment-wrapper {
   margin-left: auto;
   margin-right: auto;
-  padding: 56px 16px 0;
-  min-height: 200px;
+  padding: 56px 18px 42px 18px;
+  height: 200px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
   border-radius: 15px;
   background-color: var(--white-color);
+  overflow: auto;
 }
 
 .review-img-wrapper {
@@ -109,6 +110,8 @@
 }
 
 .leave-review-modal-window {
+  width: 311px;
+  height: 471px;
   background-color: var(--background-color);
   overflow: scroll;
   position: absolute;
@@ -278,20 +281,19 @@
   position: relative;
 }
 
-@media screen and (max-width:374px) {
+@media screen and (min-width:375px) {
   .leave-review-modal-window {
-    max-width: 311px;
-  }
-}
-@media screen and (max-width:767px) {
-  .leave-review-modal-window {
-    max-width: 311px;
+    width: 311px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .reviews-section {
     margin-bottom: 100px;
+  }
+  .review-section-title {
+    font-size: 24px;
+    line-height: 1.17;
   }
   .review-form-heading {
     font-size: 24px;
@@ -300,6 +302,7 @@
   }
   .leave-review-modal-window {
     width: 517px;
+    height: 628px;
     padding: 40px;
   }
 
