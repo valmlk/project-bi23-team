@@ -1,8 +1,3 @@
-:root {
-  /* Others var */
-  --anim-base: 250ms;
-  --anim-timing: cubic-bezier(0.4, 0, 0.2, 1);
-}
 .header-logo {
   display: flex;
   gap: 4px;
@@ -87,7 +82,7 @@
 
   color: var(--primary-text-color);
 
-  transition: color var(--anim-base) var(--anim-timing);
+  transition: color var(--transition-duration-and-func);
 }
 .header-link:hover,
 .header-link:focus {
@@ -120,7 +115,7 @@
   fill: transparent;
   stroke: var(--primary-text-color);
 
-  transition: stroke var(--anim-base) var(--anim-timing);
+  transition: stroke var(--transition-duration-and-func);
 }
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
@@ -166,7 +161,7 @@
 .header-menu-icon {
   stroke: var(--primary-text-color);
 
-  transition: stroke var(--anim-base) var(--anim-timing);
+  transition: stroke var(--transition-duration-and-func);
 }
 .header-menu-toggle:hover .header-menu-icon,
 .header-menu-toggle:focus .header-menu-icon {
@@ -242,8 +237,8 @@
   stroke: var(--white-color);
 
   transform: scale(1);
-  transition: stroke var(--anim-base) var(--anim-timing);
-  transition: transform var(--anim-base) var(--anim-timing);
+  transition: stroke var(--transition-duration-and-func),
+   transform var(--transition-duration-and-func);
 }
 
 .header-menu-toggle:hover .menu-modal-icon,
@@ -279,7 +274,7 @@
   line-height: 1.14;
   letter-spacing: -0.02em;
 
-  transition: color var(--anim-base) var(--anim-timing);
+  transition: color var(--transition-duration-and-func);
 }
 
 .mobile-menu-link:hover,
@@ -301,7 +296,7 @@
   border-radius: 2px;
   background-color: transparent;
 
-  transition: background-color var(--anim-base) var(--anim-timing);
+  transition: background-color var(--transition-duration-and-func);
 }
 
 .mobile-menu-link:hover::after,

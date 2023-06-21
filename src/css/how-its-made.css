@@ -74,11 +74,11 @@
 
 .icon-video-play {
   position: absolute;
+  transition: transform var(--transition-duration-and-func);
 }
 
 .video:hover .icon-video-play {
   transform: scale(1.15);
-  transition: transform var(--transition-duration-and-func);
 }
 
 @media screen and (max-width: 767px) {

@@ -34,6 +34,8 @@ body {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
+  transition: color var(--transition-duration-and-func),
+  background-color var(--transition-duration-and-func);
 }
 
 .base-btn,
@@ -55,6 +57,8 @@ body {
   background-color: transparent;
   border: 1px solid var(--white-color);
   color: var(--white-color);
+  transition: border-color var(--transition-duration-and-func),
+    color var(--transition-duration-and-func);
 }
 
 .how-its-made-btn:hover,
@@ -91,6 +95,7 @@ body {
 
   .review-btn,
   .subscribe-btn {
+    height: 50px;
     font-size: 18px;
     line-height: 1.22;
   }
