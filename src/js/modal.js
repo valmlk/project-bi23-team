@@ -1,7 +1,7 @@
-  (() => {
+(() => {
   const modalRefs = [
     {
-      openModalBtn: document.querySelector("[data-modal-open='modal1']"),
+      openModalBtns: document.querySelectorAll("[data-modal-open='modal1']"),
       closeModalBtn: document.querySelector("[data-modal-close='modal1']"),
       modal: document.querySelector("[data-modal='modal1']"),
       bodyElement: document.querySelector("body"),
@@ -12,22 +12,17 @@
       modal: document.querySelector("[data-modal='modal2']"),
       bodyElement: document.querySelector("body"),
     },
-    {
-      openModalBtn: document.querySelector("[data-modal-open='modal3']"),
-      closeModalBtn: document.querySelector("[data-modal-close='modal3']"),
-      modal: document.querySelector("[data-modal='modal3']"),
-      bodyElement: document.querySelector("body"),
-    },
-    {
-      openModalBtn: document.querySelector("[data-modal-open='modal4']"),
-      closeModalBtn: document.querySelector("[data-modal-close='modal4']"),
-      modal: document.querySelector("[data-modal='modal4']"),
-      bodyElement: document.querySelector("body"),
-    }
   ];
 
   modalRefs.forEach((modalRef) => {
-    modalRef.openModalBtn.addEventListener("click", () => openModal(modalRef));
+    if (modalRef.openModalBtns) {
+      modalRef.openModalBtns.forEach((openModalBtn) => {
+        openModalBtn.addEventListener("click", () => openModal(modalRef));
+      });
+    } else {
+      modalRef.openModalBtn.addEventListener("click", () => openModal(modalRef));
+    }
+
     modalRef.closeModalBtn.addEventListener("click", () => closeModal(modalRef));
   });
 
