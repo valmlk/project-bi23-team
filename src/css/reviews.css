@@ -358,10 +358,6 @@
     height: 45px;
   }
 
-  .review-form-comment {
-    height: 137px;
-  }
-
   .review-modal-close-btn::before,
   .review-modal-close-btn::after {
     top: 15%;
