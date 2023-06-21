@@ -8,42 +8,58 @@
         class="video"
         data-src="https://www.youtube.com/embed/fZGwpvGXDDo?autoplay=1"
       >
-        <picture>
-          <source
-            srcset="
-              /img/how-its-made-img/how-its-made-img-desktop.webp    1x,
-              /img/how-its-made-img/how-its-made-img-desktop@2x.webp 2x,
-              /img/how-its-made-img/how-its-made-img-desktop.jpg     1x,
-              /img/how-its-made-img/how-its-made-img-desktop@2x.jpg  2x
-            "
-            media="(min-width: 1200px)"
-            type="image/webp"
-          />
-          <source
-            srcset="
-              /img/how-its-made-img/how-its-made-img-tablet.webp    1x,
-              /img/how-its-made-img/how-its-made-img-tablet@2x.webp 2x,
-              /img/how-its-made-img/how-its-made-img-tablet.jpg     1x,
-              /img/how-its-made-img/how-its-made-img-tablet@2x.jpg  2x
-            "
-            media="(min-width: 768px)"
-            type="image/webp"
-          />
-          <source
-            srcset="
-              /img/how-its-made-img/how-its-made-img-mobile.webp    1x,
-              /img/how-its-made-img/how-its-made-img-mobile@2x.webp 2x,
-              /img/how-its-made-img/how-its-made-img-mobile.jpg     1x,
-              /img/how-its-made-img/how-its-made-img-mobile@2x.jpg  2x
-            "
-            media="(max-width: 767px)"
-            type="image/webp"
-          />
-          <img
-            src="/img/how-its-made-img/how-its-made-img-mobile.jpg"
-            alt="melted chocolate in a bowl"
-          />
-        </picture>
+      <picture>
+        <source
+          srcset="
+            /img/how-its-made-img/how-its-made-img-desktop.webp    1x,
+            /img/how-its-made-img/how-its-made-img-desktop@2x.webp 2x
+          "
+          media="(min-width: 1200px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /img/how-its-made-img/how-its-made-img-desktop.jpg    1x,
+            /img/how-its-made-img/how-its-made-img-desktop@2x.jpg 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            /img/how-its-made-img/how-its-made-img-tablet.webp    1x,
+            /img/how-its-made-img/how-its-made-img-tablet@2x.webp 2x
+          "
+          media="(min-width: 768px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /img/how-its-made-img/how-its-made-img-tablet.jpg    1x,
+            /img/how-its-made-img/how-its-made-img-tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /img/how-its-made-img/how-its-made-img-mobile.webp    1x,
+            /img/how-its-made-img/how-its-made-img-mobile@2x.webp 2x
+          "
+          media="(min-width: 375px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /img/how-its-made-img/how-its-made-img-mobile.jpg    1x,
+            /img/how-its-made-img/how-its-made-img-mobile@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img class="image-how-its-made"
+          src="/img/how-its-made-img/how-its-made-img-mobile.jpg"
+          alt="melted chocolate in a bowl"
+          height="500"
+        />
+      </picture>
         <svg class="icon-video-play" height="35" width="35">
           <use href="../img/sprite.svg#icon-video-play"></use>
         </svg>
