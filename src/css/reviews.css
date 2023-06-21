@@ -328,6 +328,7 @@
   }
 
   .review-form-comment {
+    height: 137px;
     padding: 22px 24px;
   }
 
@@ -358,7 +359,6 @@
   }
 
   .review-form-comment {
-    width: 473px;
     height: 137px;
   }
 
