@@ -1,6 +1,5 @@
 .unique-components {
-    padding: 72px 0;
-    margin: auto;
+    margin: 72px auto;
 }
 .components-title {
     max-width: 283px;
@@ -87,7 +86,7 @@
 /* ========= Tablet ========== */
 @media only screen and (min-width: 768px) {
     .unique-components {
-        padding: 100px 0;
+        margin-bottom: 100px;
     }
     .components-title {
         max-width: 411px;
@@ -119,7 +118,7 @@
 /* ===========  Desktop =========== */
 @media screen and (min-width: 1200px) {
     .unique-components {
-        padding: 128px 0;
+        margin-bottom: 128px;
     }
     .components-img {
         margin-bottom: 36px;

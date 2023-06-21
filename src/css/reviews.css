@@ -1,10 +1,9 @@
 .reviews-section {
   background-color: var(--background-color);
-  padding-bottom: 72px;
-  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 72px;
 }
 
 .review-section-title {
@@ -294,6 +293,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .reviews-section {
+    margin-bottom: 100px;
+  }
   .review-form-heading {
     font-size: 24px;
     line-height: 1.16;
@@ -376,6 +378,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .reviews-section {
+    margin-bottom: 128px;
+  }
   .review-comment-wrapper {
     max-width: 360px;
   }

@@ -1,3 +1,6 @@
+.our-products-section {
+  margin-bottom: 72px;
+}
 .our-products-title {
   margin-bottom: 32px;
   font-weight: 600;
@@ -91,11 +94,25 @@
   margin: 0;
 }
 @media screen and (min-width: 768px) {
+  .our-products-section {
+    margin-bottom: 100px;
+  }
   .our-products-item:not(:last-child) {
     margin-right: 18px;
   }
 
+  .our-products-title {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
   .our-products-item {
     margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .our-products-section {
+    margin-bottom: 128px;
   }
 }

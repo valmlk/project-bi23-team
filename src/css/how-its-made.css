@@ -1,3 +1,6 @@
+.how-its-made-section {
+    margin-bottom: 72px;
+}
 .how-its-made-title {
     font-weight: 600;
     font-size: 20px;
@@ -46,6 +49,9 @@
     border-radius:50%;
 }
 @media screen and (min-width:768px){
+    .how-its-made-section {
+        margin-bottom: 100px;
+    }
     .how-its-made-title{
         font-size: 24px;
         line-height: 1.17;
@@ -71,6 +77,9 @@
     }
 }
 @media screen and (min-width:1200px){  
+    .how-its-made-section {
+        margin-bottom: 128px;
+    }
     .content-wrapper{
         display:flex;
         gap:20px;

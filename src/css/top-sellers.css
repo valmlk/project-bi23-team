@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 767px) {
   .top-sellers {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .photo {
     padding-bottom: 20px;
@@ -67,12 +67,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .top-sellers {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .top-sellers {
-    padding-bottom: 128px;
+    margin-bottom: 128px;
   }
 }
