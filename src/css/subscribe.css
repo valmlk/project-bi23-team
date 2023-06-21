@@ -229,10 +229,15 @@
     }
     .subscribe-form-input {
         width: 313px;
+        height: 52px;
         padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 24px;
     }
+    .subscr-btn {
+        height: 52px;
+    }
+
     .subscribe-form-input::placeholder {
         font-size: 18px;
     }
