@@ -1,5 +1,5 @@
 .our-products-section {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .our-products-title {
   margin-bottom: 32px;
@@ -95,7 +95,7 @@
 }
 @media screen and (min-width: 768px) {
   .our-products-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .our-products-item:not(:last-child) {
     margin-right: 18px;
@@ -113,6 +113,6 @@
 
 @media screen and (min-width:1200px) {
   .our-products-section {
-    margin-bottom: 128px;
+    padding-bottom: 128px;
   }
 }

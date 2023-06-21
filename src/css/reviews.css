@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 
 .review-section-title {
@@ -20,10 +20,10 @@
   color: var(--accent-color);
 }
 
-@media screen and (min-width:320px), and (max-width:374px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .reviews-container {
     max-width: 100%;
-  }
+    }
 }
 
 .review-comment-wrapper {
@@ -302,7 +302,7 @@
     width: 768px;
   }
   .reviews-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .review-section-title {
     font-size: 24px;
@@ -391,7 +391,7 @@
     width: 1200px;
   }
   .reviews-section {
-    margin-bottom: 128px;
+    padding-bottom: 128px;
   }
   .review-comment-wrapper {
     max-width: 360px;

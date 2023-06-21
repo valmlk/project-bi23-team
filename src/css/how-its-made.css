@@ -1,5 +1,5 @@
 .how-its-made-section {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .how-its-made-title {
   font-weight: 600;
@@ -90,7 +90,7 @@
 
 @media screen and (min-width: 768px) {
   .how-its-made-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .how-its-made-title {
     font-size: 24px;
@@ -128,7 +128,7 @@
 }
 @media screen and (min-width: 1200px) {
   .how-its-made-section {
-    margin-bottom: 128px;
+    padding-bottom: 128px;
   }
   .content-wrapper {
     gap: 20px;
