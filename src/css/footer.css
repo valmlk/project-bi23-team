@@ -90,17 +90,17 @@
 }
 
 @media screen and (max-width:767px) {
-    .page-footer {
+    /* .page-footer {
         max-width: 375px;
-    }
+    } */
 }
 
 /* TBLET FOOTER */
 @media screen and (min-width: 768px) {
 
-    .page-footer {
+    /* .page-footer {
         max-width: 768px;
-    }
+    } */
 
     .footer-container {
         gap: 52px;
@@ -139,9 +139,9 @@
 /* DESCTOP FOOTER */
 
 @media screen and (min-width: 1200px) {
-    .page-footer {
+    /* .page-footer {
         max-width: 1200px;
-    }
+    } */
     
     .before-footer::before {
         margin-top: 58px;

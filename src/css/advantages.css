@@ -12,9 +12,9 @@
   .advantages-item {
     margin-bottom: 20px;
   }
-  .advantages {
+  /* .advantages {
     max-width: 375px;
-  }
+  } */
 }
 
 .visually-hidden {
@@ -61,7 +61,7 @@
   .advantages {
     padding-top: 50px;
     padding-bottom: 50px;
-    max-width: 768px;
+    /* max-width: 768px; */
   }
   .advantages-list {
     display: flex;
@@ -76,9 +76,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .advantages {
+  /* .advantages {
     max-width: 1200px;
-  }
+  } */
 
   .advantages-list {
     align-items: start;
