@@ -935,7 +935,7 @@
 
 
                 <input class="review-form-input" type="email" name="review-user-email" id="review-user-email"
-                    placeholder="Enter your email" required>
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="Enter your email" required>
 
             </label>
 
@@ -1012,6 +1012,7 @@
             name="email"
             class="subscribe-form-input"
             required=""
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             placeholder="Enter your email"
           />
         </label>
